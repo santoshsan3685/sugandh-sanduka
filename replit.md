@@ -73,6 +73,12 @@ shared/
 ## Running the Application
 The application runs on port 5000 with `npm run dev`. Vite handles both frontend HMR and proxies API requests to Express.
 
+## GitHub Repository
+**Repository URL**: https://github.com/santoshsan3685/sugandh-sanduka
+
+### User Preference
+**IMPORTANT**: Always push code changes to the GitHub repository after making any modifications. Use the upload script at `scripts/upload-to-github.ts` to sync changes.
+
 ## Recent Changes
 - December 2025: Converted to static catalogue website
   - Removed cart functionality (no add to cart, no cart drawer)
