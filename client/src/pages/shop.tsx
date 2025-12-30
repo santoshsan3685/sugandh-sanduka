@@ -12,6 +12,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { ProductCard } from "@/components/product-card";
+import { SEO, BreadcrumbStructuredData } from "@/components/seo";
 import type { Product } from "@shared/schema";
 
 const categories = [
@@ -66,6 +67,16 @@ export default function Shop() {
 
   return (
     <main className="pt-20 lg:pt-24" data-testid="page-shop">
+      <SEO 
+        title="Shop Premium Car Air Fresheners"
+        description="Browse our complete collection of premium car air fresheners. Fresh, floral, woody and fruity scents. 45-day lasting fragrance. Order via WhatsApp."
+        keywords="buy car freshener, car freshener online India, premium car scent, car perfume shop"
+        canonicalUrl="/shop"
+      />
+      <BreadcrumbStructuredData items={[
+        { name: "Home", url: "/" },
+        { name: "Shop", url: "/shop" }
+      ]} />
       <div className="max-w-7xl mx-auto px-4 lg:px-8 py-8 lg:py-12">
         <div className="mb-8">
           <h1 className="font-serif text-3xl lg:text-4xl font-bold mb-2">
