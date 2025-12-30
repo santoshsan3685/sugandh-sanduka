@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { Skeleton } from "@/components/ui/skeleton";
 import { ProductCard } from "@/components/product-card";
+import { SEO, BreadcrumbStructuredData } from "@/components/seo";
 import type { Product, Collection } from "@shared/schema";
 
 import freshImg from "@assets/generated_images/ocean_blue_car_freshener.png";
@@ -49,6 +50,16 @@ export default function Collections() {
 
   return (
     <main className="pt-20 lg:pt-24" data-testid="page-collections">
+      <SEO 
+        title="Car Freshener Collections - Fresh, Floral, Premium"
+        description="Explore our curated collections of premium car fresheners. Fresh & Clean, Floral Garden, and Premium Collection. Find your signature scent."
+        keywords="car freshener collections, floral car freshener, fresh car scent, premium car perfume"
+        canonicalUrl="/collections"
+      />
+      <BreadcrumbStructuredData items={[
+        { name: "Home", url: "/" },
+        { name: "Collections", url: "/collections" }
+      ]} />
       <div className="max-w-7xl mx-auto px-4 lg:px-8 py-8 lg:py-12">
         <div className="text-center mb-12">
           <h1 className="font-serif text-3xl lg:text-5xl font-bold mb-4">
