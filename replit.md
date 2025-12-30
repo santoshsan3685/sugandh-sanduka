@@ -80,11 +80,19 @@ The application runs on port 5000 with `npm run dev`. Vite handles both frontend
 **IMPORTANT**: Always push code changes to the GitHub repository after making any modifications. Use the upload script at `scripts/upload-to-github.ts` to sync changes.
 
 ## Recent Changes
+- December 2025: SEO Implementation
+  - Added react-helmet-async for dynamic meta tags
+  - Created reusable SEO component with structured data (JSON-LD)
+  - Added unique meta tags to all pages (Home, Shop, Collections, About)
+  - Implemented Organization, Product, and Breadcrumb structured data
+  - Created sitemap.xml and robots.txt for search engines
+  - Added Open Graph and Twitter Card meta tags
 - December 2025: Converted to static catalogue website
   - Removed cart functionality (no add to cart, no cart drawer)
   - Changed pricing to INR (Indian Rupees) with ₹ symbol
   - Updated navigation to remove cart button
   - Product cards now display prices only (no purchase buttons)
+  - Added WhatsApp integration for purchases (919890991136)
 - December 2024: Initial MVP build with all core features
   - Complete responsive frontend with 4 pages
   - In-memory backend with sample product data
