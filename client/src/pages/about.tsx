@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { ArrowRight, Award, Heart, Leaf, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { SEO, BreadcrumbStructuredData } from "@/components/seo";
 import aboutImg from "@assets/generated_images/car_freshener_lifestyle_shot.png";
 import craftImg from "@assets/generated_images/premium_car_fresheners_display.png";
 
@@ -38,6 +39,16 @@ const stats = [
 export default function About() {
   return (
     <main className="pt-20 lg:pt-24" data-testid="page-about">
+      <SEO 
+        title="About Sugandh Sanduka - Our Story"
+        description="Learn about Sugandh Sanduka, India's premium car freshener brand. Founded in 2019, we blend traditional aromatherapy with modern fragrance technology."
+        keywords="about Sugandh Sanduka, car freshener company India, handcrafted car freshener"
+        canonicalUrl="/about"
+      />
+      <BreadcrumbStructuredData items={[
+        { name: "Home", url: "/" },
+        { name: "About Us", url: "/about" }
+      ]} />
       <section className="relative py-16 lg:py-24 bg-card">
         <div className="max-w-7xl mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
