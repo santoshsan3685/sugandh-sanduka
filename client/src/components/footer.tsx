@@ -33,7 +33,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           <div className="lg:col-span-1">
             <Link href="/">
-              <span className="font-serif text-2xl font-bold">Sugandh Sanduka</span>
+              <div className="flex items-center gap-2">
+                <img
+                  src="/images/logo-icon.png"
+                  alt="Sugandh Sanduka Logo"
+                  className="h-10 w-10 object-contain"
+                />
+                <span className="font-serif text-2xl font-bold">Sugandh Sanduka</span>
+              </div>
             </Link>
             <p className="text-muted-foreground mt-4 mb-6 max-w-sm">
               Premium car fresheners crafted with passion. Transform every drive

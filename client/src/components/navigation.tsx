@@ -39,13 +39,20 @@ export function Navigation() {
       <nav className="max-w-7xl mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" data-testid="link-logo">
-            <span
-              className={`font-serif text-xl lg:text-2xl font-bold tracking-tight transition-colors ${
-                isScrolled || !isHome ? "text-foreground" : "text-white"
-              }`}
-            >
-              Sugandh Sanduka
-            </span>
+            <div className="flex items-center gap-2">
+              <img
+                src="/images/logo-icon.png"
+                alt="Sugandh Sanduka Logo"
+                className="h-9 w-9 object-contain drop-shadow"
+              />
+              <span
+                className={`font-serif text-xl lg:text-2xl font-bold tracking-tight transition-colors ${
+                  isScrolled || !isHome ? "text-foreground" : "text-white"
+                }`}
+              >
+                Sugandh Sanduka
+              </span>
+            </div>
           </Link>
 
           <div className="hidden lg:flex items-center gap-8">
