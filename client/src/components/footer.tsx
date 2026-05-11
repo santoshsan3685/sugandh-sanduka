@@ -35,9 +35,9 @@ export function Footer() {
             <Link href="/">
               <div className="flex items-center gap-2">
                 <img
-                  src="/images/logo-icon.png"
+                  src="/images/logo-icon.svg"
                   alt="Sugandh Sanduka Logo"
-                  className="h-10 w-10 object-contain"
+                  className="h-14 w-14 object-contain"
                 />
                 <span className="font-serif text-2xl font-bold">Sugandh Sanduka</span>
               </div>

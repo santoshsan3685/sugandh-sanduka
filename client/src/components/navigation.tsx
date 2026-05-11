@@ -41,9 +41,9 @@ export function Navigation() {
           <Link href="/" data-testid="link-logo">
             <div className="flex items-center gap-2">
               <img
-                src="/images/logo-icon.png"
+                src="/images/logo-icon.svg"
                 alt="Sugandh Sanduka Logo"
-                className="h-9 w-9 object-contain drop-shadow"
+                className="h-12 w-12 object-contain drop-shadow-md"
               />
               <span
                 className={`font-serif text-xl lg:text-2xl font-bold tracking-tight transition-colors ${
