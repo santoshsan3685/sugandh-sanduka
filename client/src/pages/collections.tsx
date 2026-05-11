@@ -4,9 +4,9 @@ import { ProductCard } from "@/components/product-card";
 import { SEO, BreadcrumbStructuredData } from "@/components/seo";
 import type { Product, Collection } from "@shared/schema";
 
-import freshImg from "@assets/generated_images/ocean_blue_car_freshener.png";
-import floralImg from "@assets/generated_images/lavender_purple_car_freshener.png";
-import premiumImg from "@assets/generated_images/sandalwood_brown_car_freshener.png";
+const freshImg = "/images/freshCollection.jpg";
+const floralImg = "/images/floralCollection.jpg";
+const premiumImg = "/images/premiumCollection.jpg";
 
 const defaultCollections: Collection[] = [
   {

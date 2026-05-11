@@ -5,9 +5,9 @@ import { Card } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import type { Collection } from "@shared/schema";
 
-import freshImg from "@assets/generated_images/fresh_ocean_blue_freshener.png";
-import floralImg from "@assets/generated_images/floral_lavender_freshener.png";
-import premiumImg from "@assets/generated_images/premium_sandalwood_freshener.png";
+const freshImg = "/images/freshCollection.jpg";
+const floralImg = "/images/floralCollection.jpg";
+const premiumImg = "/images/premiumCollection.jpg";
 
 const collectionImages: Record<string, string> = {
   fresh: freshImg,

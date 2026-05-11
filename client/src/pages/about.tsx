@@ -3,8 +3,8 @@ import { ArrowRight, Award, Heart, Leaf, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { SEO, BreadcrumbStructuredData } from "@/components/seo";
-import aboutImg from "@assets/generated_images/car_freshener_lifestyle_shot.png";
-import craftImg from "@assets/generated_images/premium_car_fresheners_display.png";
+const aboutImg = "/images/premiumCollection.jpg";
+const craftImg = "/images/sandalwood.jpg";
 
 const values = [
   {

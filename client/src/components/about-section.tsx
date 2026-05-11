@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import aboutImg from "@assets/generated_images/handcrafted_car_freshener_workshop.png";
+const aboutImg = "/images/sandalwood.jpg";
 
 export function AboutSection() {
   return (

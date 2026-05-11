@@ -2,7 +2,7 @@ import { Link } from "wouter";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import heroImage from "@assets/generated_images/right-hand_drive_car_with_freshener.png";
+const heroImage = "/images/hero.jpg";
 
 export function HeroSection() {
   return (
